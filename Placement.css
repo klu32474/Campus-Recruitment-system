@@ -1,0 +1,37 @@
+/* Placement.css */
+
+.placement-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  
+  .placement-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .placement-table th,
+  .placement-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .placement-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .delete-button {
+    padding: 8px 12px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  

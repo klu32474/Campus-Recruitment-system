@@ -1,0 +1,43 @@
+/* Entry.css */
+
+.entry-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Increase space between buttons */
+}
+  
+.entry-container label {
+    display: block;
+    margin-bottom: 10px;
+}
+  
+.entry-container input,
+.entry-container select {
+    width: calc(100% - 24px); /* Adjusted width for the input and select to accommodate padding */
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+  
+.entry-container button.action-button {
+    width: 30%; /* Set buttons to occupy full width */
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+  
+.entry-container button.action-button:hover {
+    background-color: #0056b3;
+}

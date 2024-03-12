@@ -1,0 +1,71 @@
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-group ion-icon {
+    margin: 0 10px;
+    color: #777;
+}
+
+.input-group input {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    outline: none;
+    background-color: transparent;
+}
+
+.login-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #45a049;
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer span {
+    margin: 0 10px;
+    color: #777;
+}
+
+.footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.error-message {
+    color: #FF0000;
+    margin-bottom: 10px;
+}

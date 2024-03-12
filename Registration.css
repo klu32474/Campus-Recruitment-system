@@ -1,0 +1,27 @@
+/* Registration.css */
+
+.registration-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .registration-title {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .registration-avatar {
+    margin: auto;
+    background-color: #1976d2; /* Adjust color as needed */
+  }
+  
+  .registration-form {
+    margin-top: 20px;
+  }
+  
+  .registration-link {
+    text-align: right;
+  }
+  
